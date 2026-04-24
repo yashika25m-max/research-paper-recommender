@@ -81,4 +81,4 @@ if st.button("Predict & Recommend"):
         st.subheader("📄 Recommended Papers")
 
         for i in top_indices:
-            st.write("👉", df['title'].iloc[i]){score:.2f})")
+            st.write(f"👉 {df['title'].iloc[i]}")
