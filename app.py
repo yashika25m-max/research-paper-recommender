@@ -6,8 +6,7 @@ import string
 from nltk.corpus import stopwords
 from sklearn.metrics.pairwise import cosine_similarity
 
-nltk.download('stopwords')
-
+nltk.download('stopwords', quiet=True)
 # =========================
 # LOAD FILES
 # =========================
